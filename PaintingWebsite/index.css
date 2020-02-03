@@ -1,0 +1,135 @@
+.Main
+{
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 10px solid;
+  border-radius: 10px;
+  border-color: #304878;
+
+  padding: 15px;
+
+  font-family: monospace;
+
+  background-color: black;
+
+  color: #7890A8;
+
+  font-family: font;
+}
+
+.Line
+{
+  height: 25px;
+
+  background-color: #304878;
+}
+
+h1
+{
+  text-align: center;
+
+  color: #F0A818;
+
+  font-size: 55pt;
+}
+
+h2
+{
+  margin-left: 35px;
+
+  color: #add8e6;
+
+  font-size: 35pt;
+
+
+}
+
+p, li, a
+{
+  font-family: monospace;
+  font-size: 16pt;
+
+}
+
+.Pic
+{
+    width: 180px;
+    height: 180px;
+    float: right;
+
+    border: 3px solid;
+    border-color: #F0A818;
+    border-radius: 15px;
+
+}
+
+.ear
+{
+    width: 154px;
+    height: 115px;
+    float: right;
+
+    margin-right: 250px;
+
+    border: 3px solid;
+    border-color: #F0A818;
+    border-radius: 15px;
+
+}
+
+.Night
+{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: #F0A818;
+}
+
+@font-face {
+  font-family: 'font';
+  src:url('font.ttf');
+}
+
+ul
+{
+  list-style-type: none;
+  margin-left: -35px;
+}
+
+a:link, a:visited
+{
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #add8e6;
+  font-size: 35pt;
+  font-family: monospace;
+
+  text-decoration: none;
+
+  text-align: center;
+}
+
+a:hover, a:active
+{
+  color: #add8e6;
+  font-size: 38pt;
+  font-family: monospace;
+
+  text-decoration: line-through;
+
+  text-align: center;
+}
+
+body
+{
+  background-image: url('Background.jpg');
+  background-repeat: round;
+}
